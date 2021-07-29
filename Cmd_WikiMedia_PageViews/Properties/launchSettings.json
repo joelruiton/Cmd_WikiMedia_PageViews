@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Cmd_WikiMedia_PageViews": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

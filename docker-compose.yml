@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cmd_wikimedia_pageviews:
+    image: ${DOCKER_REGISTRY-}cmdwikimediapageviews
+    build:
+      context: .
+      dockerfile: Cmd_WikiMedia_PageViews\Dockerfile
