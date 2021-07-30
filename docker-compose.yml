@@ -5,4 +5,4 @@ services:
     image: ${DOCKER_REGISTRY-}cmdwikimediapageviews
     build:
       context: .
-      dockerfile: Cmd_WikiMedia_PageViews\Dockerfile
+      dockerfile: Cmd_WikiMedia_PageViews/Dockerfile
